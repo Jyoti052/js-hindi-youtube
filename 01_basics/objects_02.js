@@ -71,7 +71,7 @@ const {courseinstructor:instructor}= course
 //console.log(courseinstructor);
 console.log(instructor);
 
-//JSON API--->keys an values are string
+//JSON API--->keys and values are string
 {
     "name":"jyoti",
     "coursename":"Js in hindi",
