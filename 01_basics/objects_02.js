@@ -51,12 +51,40 @@ const users = [
 
 //console.log(users[0].email)
 
-console.log(tinderUser)
+//console.log(tinderUser)
 //console.log(Object.keys(tinderUser));
 //console.log(Object.values(tinderUser));
 //console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLoggedOf'));// to check if this property exists or not
+//console.log(tinderUser.hasOwnProperty('isLoggedOf'));// to check if this property exists or not
+
+//object destructuring---->
+
+const course = {
+    courseame: "Js in hindi",
+    price:"999",
+    courseinstructor:"hitesh"
+}
+//course.courseinstructor
+ 
+const {courseinstructor:instructor}= course
+//console.log(courseinstructor);
+console.log(instructor);
+
+//JSON API--->keys an values are string
+{
+    "name":"jyoti",
+    "coursename":"Js in hindi",
+    "price":"free"
+}
+
+[
+    {},
+    {},
+    {}
+]
+
+
 
 
 
